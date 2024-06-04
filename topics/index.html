@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pravin Mane - Web Developer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #000;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        text-align: center;
+      }
+
+      h1 {
+        color: #b8e6b8;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      .skills {
+        margin-top: 30px;
+      }
+
+      .skills ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .skills li {
+        display: inline-block;
+        margin: 5px;
+        padding: 8px 15px;
+        background-color: #006400;
+        border-radius: 20px;
+      }
+      .profile-container {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ddd;
+        padding: 10px;
+        max-width: 400px;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .profile-image {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+      .profile-info {
+        display: flex;
+        flex-direction: column;
+      }
+      .profile-name {
+        font-size: 1.5em;
+        color: #ddd;
+        font-weight: bold;
+        margin: 0;
+      }
+      .profile-description {
+        font-size: 1em;
+        color: #666;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 id="title">Pravin Mane <span>Test text</span></h1>
+      <p>Web Developer</p>
+      <p>Working with HTML, CSS, Tailwind CSS, JavaScript, and React.js</p>
+      <div class="skills">
+        <h2>Skills:</h2>
+        <ul class="language" id="ul">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li id="element">Tailwind CSS</li>
+          <li>JavaScript</li>
+          <li>React.js</li>
+        </ul>
+      </div>
+
+      <!-- <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+        <div class="day">Friday</div>
+        <div class="day">Saturday</div>
+        <div class="day">Sunday</div>
+      </div> -->
+    </div>
+
+    <div class="profile-container">
+      <img src="" alt="Profile Image" class="profile-image" />
+      <div class="profile-info">
+        <h2 class="profile-name">John Doe</h2>
+        <p class="profile-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          posuere erat a ante.
+        </p>
+      </div>
+    </div>
+
+    <script src="APIrequest.js"></script>
+  </body>
+</html>
